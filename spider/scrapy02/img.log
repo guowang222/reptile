@@ -1,0 +1,101 @@
+2021-06-28 18:10:32 [scrapy.utils.log] INFO: Scrapy 2.5.0 started (bot: scrapy02)
+2021-06-28 18:10:32 [scrapy.utils.log] INFO: Versions: lxml 4.6.3.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 21.2.0, Python 3.9.4 (tags/v3.9.4:1f2e308, Apr  6 2021, 13:40:21) [MSC v.1928 64 bit (AMD64)], pyOpenSSL 20.0.1 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Windows-10-10.0.19041-SP0
+2021-06-28 18:10:32 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-06-28 18:10:32 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'scrapy02',
+ 'DOWNLOAD_DELAY': 1,
+ 'LOG_FILE': 'D:\\code\\python\\spider\\scrapy02\\img.log',
+ 'NEWSPIDER_MODULE': 'scrapy02.spiders',
+ 'SPIDER_MODULES': ['scrapy02.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'}
+2021-06-28 18:10:32 [scrapy.extensions.telnet] INFO: Telnet Password: 4c036a0683839e3e
+2021-06-28 18:10:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-06-28 18:10:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-06-28 18:10:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-06-28 18:10:32 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapy02.pipelines.MyImagePipeline']
+2021-06-28 18:10:32 [scrapy.core.engine] INFO: Spider opened
+2021-06-28 18:10:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-06-28 18:10:32 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-06-28 18:10:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://desk.zol.com.cn/bizhi/9630_116592_2.html> (referer: None)
+2021-06-28 18:10:32 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RfmILJofABlGGv3eXAkAANJsQM8m5cAGUYy171.jpg> referred in <None>
+2021-06-28 18:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://desk.zol.com.cn/bizhi/9630_116592_2.html>
+{'img_url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RfmILJofABlGGv3eXAkAANJsQM8m5cAGUYy171.jpg', 'img_name': '炫酷拉风超跑汽车图片壁纸3（1/9）', 'images': [{'url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RfmILJofABlGGv3eXAkAANJsQM8m5cAGUYy171.jpg', 'path': '炫酷拉风超跑汽车图片壁纸3（1_9）.jpg', 'checksum': '3f3cf4599e3609623552757fcf2d2977', 'status': 'uptodate'}]}
+2021-06-28 18:10:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://desk.zol.com.cn/bizhi/9630_116578_2.html> (referer: https://desk.zol.com.cn/bizhi/9630_116592_2.html)
+2021-06-28 18:10:33 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0D/ChMkKmB2RcqIKLgBAAr1PwDp58MAANJqwPZO_MACvVX823.jpg> referred in <None>
+2021-06-28 18:10:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://desk.zol.com.cn/bizhi/9630_116578_2.html>
+{'img_url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0D/ChMkKmB2RcqIKLgBAAr1PwDp58MAANJqwPZO_MACvVX823.jpg', 'img_name': '炫酷拉风超跑汽车图片壁纸3（2/9）', 'images': [{'url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0D/ChMkKmB2RcqIKLgBAAr1PwDp58MAANJqwPZO_MACvVX823.jpg', 'path': '炫酷拉风超跑汽车图片壁纸3（2_9）.jpg', 'checksum': 'a79f263e9febde5e61e20bb9d45c5b4f', 'status': 'uptodate'}]}
+2021-06-28 18:10:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://desk.zol.com.cn/bizhi/9630_116581_2.html> (referer: https://desk.zol.com.cn/bizhi/9630_116578_2.html)
+2021-06-28 18:10:34 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0D/ChMkKWB2RdGITNpVABmxlt3PzZ8AANJrALOm5UAGbGu753.jpg> referred in <None>
+2021-06-28 18:10:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://desk.zol.com.cn/bizhi/9630_116581_2.html>
+{'img_url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0D/ChMkKWB2RdGITNpVABmxlt3PzZ8AANJrALOm5UAGbGu753.jpg', 'img_name': '炫酷拉风超跑汽车图片壁纸3（3/9）', 'images': [{'url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0D/ChMkKWB2RdGITNpVABmxlt3PzZ8AANJrALOm5UAGbGu753.jpg', 'path': '炫酷拉风超跑汽车图片壁纸3（3_9）.jpg', 'checksum': '925f22cacc449b712bc9dd0906e6fee9', 'status': 'uptodate'}]}
+2021-06-28 18:10:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://desk.zol.com.cn/bizhi/9630_116583_2.html> (referer: https://desk.zol.com.cn/bizhi/9630_116581_2.html)
+2021-06-28 18:10:36 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RdeIDHmAAA25PDWy-I4AANJrQGgnpgADblU544.jpg> referred in <None>
+2021-06-28 18:10:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://desk.zol.com.cn/bizhi/9630_116583_2.html>
+{'img_url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RdeIDHmAAA25PDWy-I4AANJrQGgnpgADblU544.jpg', 'img_name': '炫酷拉风超跑汽车图片壁纸3（4/9）', 'images': [{'url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RdeIDHmAAA25PDWy-I4AANJrQGgnpgADblU544.jpg', 'path': '炫酷拉风超跑汽车图片壁纸3（4_9）.jpg', 'checksum': 'b68946d039f90065c16f4f818ab387a0', 'status': 'uptodate'}]}
+2021-06-28 18:10:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://desk.zol.com.cn/bizhi/9630_116586_2.html> (referer: https://desk.zol.com.cn/bizhi/9630_116583_2.html)
+2021-06-28 18:10:37 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKmB2Rd2IcOkxAA2ZNJgUsZMAANJrgDwhhQADZlM133.jpg> referred in <None>
+2021-06-28 18:10:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://desk.zol.com.cn/bizhi/9630_116586_2.html>
+{'img_url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKmB2Rd2IcOkxAA2ZNJgUsZMAANJrgDwhhQADZlM133.jpg', 'img_name': '炫酷拉风超跑汽车图片壁纸3（5/9）', 'images': [{'url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKmB2Rd2IcOkxAA2ZNJgUsZMAANJrgDwhhQADZlM133.jpg', 'path': '炫酷拉风超跑汽车图片壁纸3（5_9）.jpg', 'checksum': '0bc35b869cc6f18d10487c4d831a6d4d', 'status': 'uptodate'}]}
+2021-06-28 18:10:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://desk.zol.com.cn/bizhi/9630_116588_2.html> (referer: https://desk.zol.com.cn/bizhi/9630_116586_2.html)
+2021-06-28 18:10:38 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2U66IdXXzACTx4nSc1RoAANJ5wKlDBQAJPH6315.jpg> referred in <None>
+2021-06-28 18:10:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://desk.zol.com.cn/bizhi/9630_116588_2.html>
+{'img_url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2U66IdXXzACTx4nSc1RoAANJ5wKlDBQAJPH6315.jpg', 'img_name': '炫酷拉风超跑汽车图片壁纸3（6/9）', 'images': [{'url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2U66IdXXzACTx4nSc1RoAANJ5wKlDBQAJPH6315.jpg', 'path': '炫酷拉风超跑汽车图片壁纸3（6_9）.jpg', 'checksum': '7aa7ce3cdf9006a8278825164e44ebc7', 'status': 'uptodate'}]}
+2021-06-28 18:10:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://desk.zol.com.cn/bizhi/9630_116590_2.html> (referer: https://desk.zol.com.cn/bizhi/9630_116588_2.html)
+2021-06-28 18:10:39 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2ReuILTktACZ-TjX67GgAANJrwN36hAAJn5m753.jpg> referred in <None>
+2021-06-28 18:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://desk.zol.com.cn/bizhi/9630_116590_2.html>
+{'img_url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2ReuILTktACZ-TjX67GgAANJrwN36hAAJn5m753.jpg', 'img_name': '炫酷拉风超跑汽车图片壁纸3（7/9）', 'images': [{'url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2ReuILTktACZ-TjX67GgAANJrwN36hAAJn5m753.jpg', 'path': '炫酷拉风超跑汽车图片壁纸3（7_9）.jpg', 'checksum': '2387111d3a5ec399b1b40a0a26565cb8', 'status': 'uptodate'}]}
+2021-06-28 18:10:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://desk.zol.com.cn/bizhi/9630_116591_2.html> (referer: https://desk.zol.com.cn/bizhi/9630_116590_2.html)
+2021-06-28 18:10:41 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RfOIBqLfACanq1yKSp8AANJsAN59BkAJqfD348.jpg> referred in <None>
+2021-06-28 18:10:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://desk.zol.com.cn/bizhi/9630_116591_2.html>
+{'img_url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RfOIBqLfACanq1yKSp8AANJsAN59BkAJqfD348.jpg', 'img_name': '炫酷拉风超跑汽车图片壁纸3（8/9）', 'images': [{'url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RfOIBqLfACanq1yKSp8AANJsAN59BkAJqfD348.jpg', 'path': '炫酷拉风超跑汽车图片壁纸3（8_9）.jpg', 'checksum': 'b949449bbaa9f643b03415dcaef0a8bb', 'status': 'uptodate'}]}
+2021-06-28 18:10:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://desk.zol.com.cn/bizhi/9630_116593_2.html> (referer: https://desk.zol.com.cn/bizhi/9630_116591_2.html)
+2021-06-28 18:10:42 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RgGIcpQNAEoe90p6KywAANJsgKzMN8ASh8P388.jpg> referred in <None>
+2021-06-28 18:10:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://desk.zol.com.cn/bizhi/9630_116593_2.html>
+{'img_url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RgGIcpQNAEoe90p6KywAANJsgKzMN8ASh8P388.jpg', 'img_name': '炫酷拉风超跑汽车图片壁纸3（9/9）', 'images': [{'url': 'https://desk-fd.zol-img.com.cn/t_s960x600c5/g6/M00/0D/0E/ChMkKWB2RgGIcpQNAEoe90p6KywAANJsgKzMN8ASh8P388.jpg', 'path': '炫酷拉风超跑汽车图片壁纸3（9_9）.jpg', 'checksum': '4245af5a768887acb790e0584f2962ab', 'status': 'uptodate'}]}
+2021-06-28 18:10:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-06-28 18:10:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3352,
+ 'downloader/request_count': 9,
+ 'downloader/request_method_count/GET': 9,
+ 'downloader/response_bytes': 87842,
+ 'downloader/response_count': 9,
+ 'downloader/response_status_count/200': 9,
+ 'elapsed_time_seconds': 10.368216,
+ 'file_count': 9,
+ 'file_status_count/uptodate': 9,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 6, 28, 10, 10, 42, 763726),
+ 'httpcompression/response_bytes': 307489,
+ 'httpcompression/response_count': 9,
+ 'item_scraped_count': 9,
+ 'log_count/DEBUG': 27,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 8,
+ 'response_received_count': 9,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 9,
+ 'scheduler/enqueued/memory': 9,
+ 'start_time': datetime.datetime(2021, 6, 28, 10, 10, 32, 395510)}
+2021-06-28 18:10:42 [scrapy.core.engine] INFO: Spider closed (finished)
