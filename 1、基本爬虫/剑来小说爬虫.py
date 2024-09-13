@@ -25,7 +25,7 @@ def get_url_dict():
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36"
     }
     dict_all = {}
-    for i in range(2,61):
+    for i in range(1,61):
         if i == 1:
             a = "/book/2987/"
         else:
@@ -50,7 +50,7 @@ def write_world(html):
     chapter = html.xpath('//p/text()')
     if name:
         book_name = name[0].replace(' ', '')
-        book_chapter = '\n  '.join(chapter[2:])
+        book_chapter = '\n  '.join(chapter)
     return {
         "book_name": book_name,
         "book_chapter": book_chapter
