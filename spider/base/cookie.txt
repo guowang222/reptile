@@ -1,7 +1,0 @@
-# Netscape HTTP Cookie File
-# http://curl.haxx.se/rfc/cookie_spec.html
-# This is a generated file!  Do not edit.
-
-www.kuaidaili.com	FALSE	/	FALSE	1624417118	channelid	0
-www.kuaidaili.com	FALSE	/	FALSE	1621911518	sessionid	9c43d2a33b6e05fd9658f6e8a3113da1
-www.kuaidaili.com	FALSE	/	FALSE	1624417118	sid	1621825117813372
